@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "7gW7Uixr3vZhTxX7ybvWT6ZapnQ2": {
+      "type": "object",
+      "properties": {
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["image", "name"]
+    },
+    "birthday": {
+      "type": "string",
+      "format": "date"
+    },
+    "color": {
+      "type": "string"
+    },
+    "highScore": {
+      "type": "integer"
+    },
+    "rbh1udbVolceoGv633JYe9rNI8H3": {
+      "type": "object",
+      "properties": {
+        "birthday": {
+          "type": "string",
+          "format": "date"
+        },
+        "color": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "name": {
+          "type": "string"
+        },
+        "tvShow": {
+          "type": "string"
+        }
+      },
+      "required": ["birthday", "color", "image", "name"]
+    },
+    "tvShow": {
+      "type": "string"
+    }
+  },
+  "required": ["birthday", "color", "highScore", "tvShow"]
+}
